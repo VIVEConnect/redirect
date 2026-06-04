@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <body>
+    <script>
+      (function () {
+        var uri = "eagleca://streaming/auth/twitch";
+        var fragment = window.location.hash;
+        window.location.replace(uri + fragment);
+      })();
+    </script>
+  </body>
+</html>
